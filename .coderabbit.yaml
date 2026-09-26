@@ -1,0 +1,14 @@
+
+
+# SEARCHTRUST lane append (searchtrust worker, revert after run)
+reviews:
+  review_details: true
+knowledge_base:
+  web_search:
+    enabled: true
+  code_guidelines:
+    enabled: true
+    filePatterns:
+      - "st-priv2:kr_priv.md"
+  mcp:
+    usage: enabled
